@@ -12,4 +12,4 @@ def random_string(prefix, maxlen):
 
 
 testdata = [Project(name=random_string("name", 10).rstrip(),
-                    description=random_string("header", 15), ) for i in range(2)]
+                    description=random_string("header", 15), ) for i in range(1)]
