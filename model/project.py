@@ -9,3 +9,6 @@ class Project:
 
     def __eq__(self, other):
         return self.id == other.id and self.name == other.name
+
+    def __lt__(self, other):
+        return int(self.id) < int(other.id)
